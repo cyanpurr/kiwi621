@@ -21,7 +21,7 @@ function pack(stage, temp) {
   const args = [
     `--pack-extension=${stage}`, `--user-data-dir=${profile}`,
     "--headless=new", "--disable-gpu", "--no-first-run",
-    "--no-default-browser-check"
+    "--no-default-browser-check", "--no-sandbox"
   ];
 
   if (fs.existsSync(key)) {
