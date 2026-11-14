@@ -1,1 +1,50 @@
-{}
+[
+  {
+    "id": "back2top",
+    "name": "Back2Top",
+    "author": "cyanpurr",
+    "short": "Adds a Back to Top button in the footer.",
+    "version": "1.0.0",
+    "url": "plugins/Back2Top.js"
+  },
+  {
+    "id": "more-sorting",
+    "name": "More Sorting",
+    "author": "cyanpurr",
+    "short": "Adds a lot more options to the /posts sub-navigation bar.",
+    "version": "1.0.0",
+    "url": "plugins/MoreSorting.js"
+  },
+  {
+    "id": "search-history",
+    "name": "Search History",
+    "author": "cyanpurr",
+    "short": "Shows your recent searches when searching for posts.",
+    "version": "1.0.0",
+    "url": "plugins/SearchHistory.js"
+  },
+  {
+    "id": "more-speeds",
+    "name": "More Speeds",
+    "author": "cyanpurr",
+    "short": "Adds more speed options in the e621 video player.",
+    "version": "1.0.0",
+    "url": "plugins/MoreSpeeds.js"
+  },
+  {
+    "id": "user-notes",
+    "name": "User Notes",
+    "author": "cyanpurr",
+    "short": "Write a note about someone on their profile. (stored locally)",
+    "version": "1.0.0",
+    "url": "plugins/UserNotes.js"
+  },
+  {
+    "id": "theme-helper",
+    "name": "Kiwi621 Theme Helper",
+    "author": "cyanpurr",
+    "short": "Kiwiify your e621... or something.",
+    "version": "1.0.0",
+    "url": "plugins/ThemeHelper.js"
+  }
+]

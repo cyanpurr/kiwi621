@@ -1,0 +1,119 @@
+/* the mascot images not being transparent should be a crime */
+/* oh well */
+
+:root:root,
+html body,
+html body[data-th-main] {
+  --palette-background-blue: #1f6b45;
+  --palette-background-blue-l10: #2a8a5a;
+  --palette-background-blue-d5: #1a5a3a;
+  --palette-background-blue-d10: #154b30;
+  --palette-plain-blue: #34d399;
+
+  --color-background: #04120a;
+  --color-foreground: #16351f;
+  --color-section: #20512f;
+  --color-section-lighten-5: #28653b;
+  --color-section-lighten-10: #307947;
+  --color-section-darken-5: #1a4126;
+  --color-table-border: #307947;
+  --color-section-pending: #20512f;
+  --color-section-pending-border: #04120a;
+
+  --color-text: #ffffff;
+  --color-text-muted: #999999;
+  --color-text-white: #ffffff;
+  --color-text-table-header: #e6e6e6;
+
+  --color-link: #b9d9c1;
+  --color-link-hover: #effff2;
+  --color-link-active: #e8c446;
+  --color-button-inactive: #999999;
+  --color-button-active: #e8c446;
+  --color-link-last-page: #666666;
+
+  --color-active-tag: #0b7a3f;
+  --color-dtext-quote: #b9d9c1;
+  --color-dtext-section: #5bd68a;
+
+  --color-user-member: #b9d9c1;
+  --color-user-member-alt: #63cf91;
+  --color-user-privileged: #b9d9c1;
+  --color-user-privileged-alt: #63cf91;
+  --color-user-blocked: #b9d9c1;
+  --color-user-blocked-alt: #63cf91;
+
+  --color-tag-general: #b9d9c1;
+  --color-tag-general-alt: #63cf91;
+  --color-spoiler-link: #b9d9c1;
+  --color-spoiler-link-hover: #effff2;
+}
+
+body.c-static {
+  --bg-color: #113b26 !important;
+  --fg-color: #113b26 !important;
+}
+
+html {
+  accent-color: #2f9e64;
+}
+
+::selection {
+  background: #2f9e64;
+  color: #ffffff;
+}
+
+:focus-visible {
+  outline-color: #63cf91;
+}
+
+body.c-static.a-home {
+  background-color: var(--bg-color, var(--color-background));
+}
+
+body.c-static.a-home #a-home .home-footer-bottom {
+  background: var(--color-section);
+}
+
+ul.sortable .sortable-placeholder {
+  background: rgba(47, 158, 100, 0.1);
+  border-color: #2f9e64;
+}
+
+#note-container .note-box.highlighted {
+  box-shadow: 0 0 0.5rem #27d17a;
+}
+
+#note-container .note-box.editing {
+  border-color: #2f9e64;
+  background: rgba(47, 158, 100, 0.1);
+  box-shadow: 0 0 0.5rem rgba(47, 158, 100, 0.5);
+}
+
+#note-container .note-box .styled-dtext a,
+#note-container .note-box .styled-dtext a:link,
+#note-container .note-box .styled-dtext a:visited {
+  color: #007a3d;
+}
+
+.tos-modal-text .styled-dtext a,
+.tos-modal-text .styled-dtext a:link,
+.tos-modal-text .styled-dtext a:active {
+  color: #056b35;
+}
+
+#page[data-mode-menu="add-to-pool"] .content {
+  background-color: #145c3a;
+}
+
+#page[data-mode-menu="lock-note"] .content {
+  background-color: #3a9e5c;
+}
+
+#page[data-mode-menu="approve"] .content {
+  background-color: #48b86c;
+}
+
+#page[data-mode-menu="remove-parent"] .content {
+  background-color: #38c76f;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "kiwi621",
+  "version": "1.0.0",
+  "description": "a better e621 experience",
+  "scripts": {
+    "build": "node build.js",
+    "build:local": "node build.js --local"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}
