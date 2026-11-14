@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "kiwi621",
+  "version": "1.0.0",
+  "description": "a better e621 experience",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "https://raw.githubusercontent.com/cyanpurr/kiwi621/*",
+    "http://127.0.0.1/*"
+  ],
+  "action": {
+    "default_title": "kiwi621",
+    "default_icon": {
+      "128": "icon.png",
+      "256": "icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "icon.png",
+    "256": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.e621.net/*",
+        "*://*.e926.net/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
