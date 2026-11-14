@@ -1,11 +1,4 @@
-// If you are testing locally, run `python -m http.server 8621` here if Python3 is
-// installed and build with "npm run build:local"  / "node build.js --local".
-// Support for building extensions on other browsers would be nice so if anyone wants
-// to do it then submit a PR because I only like Chrome.
-
-// If you use a different browser based off Chrome, you need to set CHROME_PATH to
-// the executable if it's not in PATH. For Helium, this would be:
-// C:\Users\cyanpurr\AppData\Local\imput\Helium\Application\chrome.exe
+// If anyone wants to add support for Firefox or Opera or whatever else browsers there are then go for it.
 
 const esbuild = require("esbuild");
 const fs = require("fs");
