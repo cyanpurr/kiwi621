@@ -19,6 +19,10 @@ Once installed, going to e621 will show a bright green "kiwi621" link in the top
 ## Building
 To build kiwi621, you must install the latest NodeJS with NPM (will come with NodeJS in most cases) and Python3 for the simple webserver.
 ```bash
+# Setup variables (optional for most)
+set CHROME_PATH=...     # Path to chrome.exe or a different executable. Optional if chrome.exe is in PATH.
+set LIBRARY=...         # URL to where the kiwi621 library is located. http://localhost:8621 is the default.
+
 # Setup the project
 npm install
 
@@ -26,7 +30,8 @@ npm install
 npm run build           # for public library
 npm run build:local     # for local or custom library
 ```
-You will now see `extension.crx` in your projects folder which is the packed Chrome extension you can install in your browser.
+You will now see `extension.crx` in your projects folder which is the packed Chrome extension you can install in your browser.  
+If you want to start the webserver for your library, run `python -m http.server 8621` in your projects folder.
 
 ### Theme Creation
 Quite a bit of HTML, CSS and understanding of DevTools is required. If you know these then that's great!  
