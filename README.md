@@ -80,7 +80,7 @@ kiwi621.addTopLink({
 There are super cool kiwi621 functions you can use in your plugins to simplify doing specific stuff on the site and should be used instead of your own DIY function:
 - `kiwi621.addTopLink({ id, label, href, title, after, before, onClick })` adds a topbar link.
 - `kiwi621.removeTopLink(id)` removes a topbar link.
-- `kiwi621.addSubLink({ id, label, href, title, location, after, before })` adds a sub-navigation link. Location can be a path or an array of paths, including wildcards such as `/posts/*` so you can lock to specific pages only.
+- `kiwi621.addSubnavLink({ id, label, href, title, location, after, before })` adds a sub-navigation link. Location can be a path or an array of paths, including wildcards such as `/posts/*` so you can lock to specific pages only.
 - `kiwi621.registerRoute({ path, title, content, sitemap })` creates a custom page on the site. Setting sitemap to `true` will add your route to the [e621 site map](https://e621.net/static/site_map) which is shown by clicking More on the top bar.
 - `kiwi621.important({ title, content, buttons })` opens a message that covers the whole screen.
 - `kiwi621.getSetting(key, fallback)` gets a setting from the plugin.
