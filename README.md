@@ -8,6 +8,7 @@
 <hr>
 
 <img height="480" alt="Preview" src="https://github.com/user-attachments/assets/3f7659e8-dc37-4e2b-adc5-e1737042c601" />
+<i>README is a W.I.P, this should give you quite a bit of information anyways</i>
 
 ## What is it exactly?
 kiwi621 is a browser extension that allows you to modify the e621/e926 site with custom features and themes made by the community.
