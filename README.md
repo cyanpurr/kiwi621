@@ -77,7 +77,7 @@ kiwi621.addTopLink({
 });
 ```
 ### kiwi621 functions
-There are super cool kiwi621 functions you can use in your plugins to simplify doing specific stuff on the site and should be used instead of your own DIY function:
+There are super cool kiwi621 functions you can use in your plugins to simplify doing specific stuff on the site and should be used instead of your own DIY function (You can take a look at some of the plugins that already exist for more usage examples):
 - `kiwi621.addTopLink({ id, label, href, title, after, before, onClick })` adds a topbar link.
 - `kiwi621.removeTopLink(id)` removes a topbar link.
 - `kiwi621.addSubnavLink({ id, label, href, title, location, after, before })` adds a sub-navigation link. Location can be a path or an array of paths, including wildcards such as `/posts/*` so you can lock to specific pages only.
